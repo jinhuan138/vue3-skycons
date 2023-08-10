@@ -12,6 +12,7 @@ npm install --save vue3-skycons
 
 <details>
 <summary>Vue 3</summary>
+   
 ```vue
 <template>
    <skycon condition="rain" size="128" color="orangered" paused/>
@@ -25,6 +26,7 @@ import Skycon from "vue3-skycons";
 
 <details>
 <summary>Vue 2</summary>
+   
 ```vue
 <template>
     <skycon condition="rain" size="128" color="orangered" paused/>
