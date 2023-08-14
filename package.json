@@ -1,6 +1,6 @@
 {
   "name": "vue3-skycons",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Skycons as Vue components",
   "main": "src/modules/index.js",
   "files": [

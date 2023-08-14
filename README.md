@@ -12,6 +12,7 @@ npm install --save vue3-skycons
 
 <details>
 <summary>Vue 3</summary>
+
 ```vue
 <template>
    <skycon condition="rain" size="128" color="orangered" paused/>
@@ -24,7 +25,9 @@ import Skycon from "vue3-skycons";
 </details>
 
 <details>
+
 <summary>Vue 2</summary>
+
 ```vue
 <template>
     <skycon condition="rain" size="128" color="orangered" paused/>
@@ -48,10 +51,10 @@ export default {
 | **Name** | **Description**             | **Type**               | **Default** |
 | -------- | -----------------------     | ---------------------- | ----------- |
 | condition| Weather condition           | `string`               | —           | 
-| size     | Icon size                   | `string`|`number`      | 64          |
+| size     | Icon size                   | `string`/`number`      | 64          |
 | color    | Icon color                  | `string`               | black       |
 | paused   | Start with paused animation | `boolean`              | false       |
-| speed    | The animation speed         | `string`|`number`      | 1           |
+| speed    | The animation speed         | `string`/`number`      | 1           |
 
 ### Event example
 
